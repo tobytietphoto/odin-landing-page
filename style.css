@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px black solid;
 }
 
 body {
@@ -11,7 +12,6 @@ body {
 }
 
 .container {
-    border: 1px black solid;
     display: flex;
     flex-direction: column;
     width: 1750px;
@@ -27,3 +27,35 @@ ul {
     gap: 15px;
 }
 
+.top {
+    display:flex;
+    flex: 1;
+}
+
+.left {
+display: flex;
+flex-direction: column;
+justify-content: baseline;
+flex: 1;
+gap: 10px;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.right-box {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
