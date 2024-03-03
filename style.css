@@ -4,34 +4,34 @@
 }
 
 body {
-   
+    font-family: "roboto";
 }
-
-.test {
-    
-}
-
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .top-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex: 1;
     gap: 50px;
     color: white;
     background-color: #1F2937;
     padding-bottom: 100px;
+
 }
 
 .header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-content: space-between;
-
+    flex: 1;
+    width: 80%;
 }
 
 ul {
@@ -42,9 +42,8 @@ ul {
 
 .top {
     display: flex;
-    flex-wrap: wrap;
     gap: 50px;
-    flex: 1;
+    width: 80%;
 }
 
 
@@ -56,18 +55,6 @@ flex: 1;
 gap: 10px;
 }
 
-.left-box {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 1;
-}
-
-.button {
-    display: flex;
-    flex: 1;
-}
-
 button {
     background-color: #3882F6;
     color: #FFFFFF;
@@ -77,49 +64,48 @@ button {
 
 .right-box {
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
     background-color: gray;
+    flex: 1;
 }
 
 .mid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex: 1;
-    gap: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
 }
 
-.mid h2 {
-    display: flex;
-    justify-content: center;
+.mid h1 {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 50px;
 }
 
 .box-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 1;
-    gap: 40px;
+    gap: 100px;
 }
 
 .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 140px;
-    
+    width: 200px;   
 }
 
 .box p {
     text-align: center;
     color: rgb(135, 135, 135);
+    font-size: 1.5em;
+    width: 150px
 }
 
 .mini-box {
-    border: 1px solid blue;
-    padding: 50px;
+    border: 1px solid dodgerblue;
+    padding: 100px;
     border-radius: 10px;
 }
 
@@ -127,42 +113,42 @@ button {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 75px;
+    padding: 100px 0;
 }
 
 .quote-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 690px;
+    width: 50%;
 }
 
 .quote-box p {
-    font-size: 1.5em;
+    font-size: 2.8em;
     color: #656565;
 
 }
 
-.quote-box h3 {
+.quote-box h1 {
     display: flex;
     justify-content: end;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .blue-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex: 1;
+    margin: 100px;
     color: white;
-    padding: 30px 80px;
+
 }
 
 .sign-button {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 .sign-button button {
@@ -172,17 +158,23 @@ button {
 .action-container {
     display: flex;
     gap: 100px;
-    padding: 25px 50px;
+    padding: 35px 100px;
     border-radius: 5px;
+    font-size: 1.5em;
     background-color: #3882F6;
+    width: 80%;
+}
+
+.action-container {
+    justify-content: center;
 }
 
 .footer {
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: #1F2937;
     color: white;
+    font-size: 1.5em;
 }
